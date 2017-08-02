@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <style type="text/css">
+        div{
+            height: 200px;
+            width: 200px;
+            background: red;
+            margin-top:10px;
+            /*  height:150px;*/
+            /*  width:150px;*/
+            /*  background-color:green;*/
+            /*  margin-top:10px;*/
+
+        }
+    </style>
+<!--    <script type="text/javascript">
+    $(document).ready(function(){
+        $("button").click(function(){
+            alert($("ipt").text());
+        });
+    });
+    </script>-->
+</head>
+<body>
+<button>点击查看效果</button>
+<input type="text" id="btn11" class="btn11" name="" value="350426200020201234"/>
+<div>
+    <input type="text" id="ipt">
+    <p id="pp"></p>
+    <button id="btn1">点我试试111</button>
+    <button id="btn2">点我试试222</button>
+    <button id="btn3">点我试试333</button>
+    <button id="btn4">点我试试444</button>
+</div>
+</body>
+<script type="text/javascript">
+        var haha = "350426200020201234";
+
+        var hehe = null;
+        
+        $("#btn1").click(function () {
+            $("#ipt").text(haha);
+        });
+
+        $("#btn2").click(function () {
+            alert($("#ipt").text());
+        });
+
+        $("#btn3").click(function () {
+            hehe = $("#ipt").text();
+        });
+
+        $("#btn4").click(function () {
+            alert(hehe);
+        });
+//        var str1 = haha.substring(0,6);
+//        alert(str1);
+//        var str2 = haha.substring(6,12);
+//        alert(str2);
+//        var str3 = haha.substring(12,18);
+//        alert(str3);
+//
+//        // var str4 = haha.substring(0);
+//        var str4 = haha.toString(haha);
+//
+//        alert(str1+str2+str3);
+//        alert(str4);
+
+//        var val = $("#btn11").attr("value")+"   heheda";
+//        alert(val);
+</script>
+</html>
