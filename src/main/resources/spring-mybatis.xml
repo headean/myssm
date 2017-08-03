@@ -22,7 +22,7 @@
         <property name="dataSource" ref="dataSource"/>
         <!-- 映射文件，这里注意 idea 编译的时候配置文件必须置于 resource 文件夹下 -->
         <!--<property name="mapperLocations" value="classpath:com/maven/dao/*Mapper.xml"/>-->
-        <property name="mapperLocations" value="classpath:com/maven/dao/*Mapper.xml"/>
+        <property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
         <!-- 映射文件中 type 只需写上类名，否则需要加上全类名 -->
         <property name="typeAliasesPackage" value="com.maven.model"/>
     </bean>
