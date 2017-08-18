@@ -1,3 +1,31 @@
 2017/08/04
 自动生成的 mybatis 的接口和映射文件的方式并未使用，仅在maven管理中加入了该配置。
 数据库使用 MySQL ，配置文件存在一个 utf-8 转码问题未解决。
+
+
+2017/08/18
+SpringMVC配置：http://blog.csdn.net/uniqueweimeijun/article/details/72636481
+SpringMVC和Spring的配置文件扫描包详解
+
+1.注解扫描：扫描包下的所有使用了@Component注解的类，自动注册到容器中，同时也扫描@Controller，@Service，@Respository这三个注解，因为他们是继承自@Component。
+<context:component-scan base-package="com.springmvc.test" />
+
+1.1有上面配置，这个可省略。上面配置默认打开以下配置。以下配置会默认声明了@Required、@Autowired、 @PostConstruct、@PersistenceContext、@Resource、@PreDestroy等注解。
+<context:annotation-config/>
+
+2.SpringMVC必须配置，声明了@RequestMapping、@RequestBody、@ResponseBody等。并且，该配置默认加载很多的参数绑定方法，比如json转换解析器等。
+<mvc:annotation-driven />
+springmvc通过上边这个注解的方式可以代替处理器映射器和处理器适配器
+而上面这句配置spring3.1之前的版本和以下配置方式等价
+    <!-- 配置注解控制器映射器,它是SpringMVC中用来将Request请求URL到映射到具体Controller -->
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>
+    <!-- 配置注解控制器映射器,它是SpringMVC中用来将具体请求映射到具体方法 -->
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
+spring3.1之后的版本和以下配置方式等价
+    <!--配置注解控制器映射器,它是SpringMVC中用来将Request请求URL到映射到具体Controller-->
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+    <!--配置注解控制器映射器,它是SpringMVC中用来将具体请求映射到具体方法-->
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+
+
+Mybatis配置：http://www.cnblogs.com/digdeep/p/4512368.html
