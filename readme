@@ -28,10 +28,17 @@ spring3.1之后的版本和以下配置方式等价
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
 
 
+2017/08/19
 Mybatis配置：http://www.cnblogs.com/digdeep/p/4512368.html
 
+    <!-- 引入 jdbc.properties 属性文件的两种方法 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
 
-2017/08/19
+    <bean id="propertyConfigurer"
+        class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:jdbc.properties" />
+    </bean>
+
 修改 pom.xml 文件，将 mysql-connection-6.0.6 改为 mysql-connection-5.1.26 版本
 修改数据库配置文件
 driverClassName = com.mysql.jdbc.Driver
@@ -39,3 +46,4 @@ driverClassName = com.mysql.jdbc.Driver
 jdbc_url = jdbc\:mysql\://localhost\:3306/test
 jdbc_username = root
 jdbc_password = 123456
+
