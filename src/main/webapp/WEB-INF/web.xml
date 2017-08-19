@@ -36,17 +36,17 @@
 
     <!-- 配置SpringMVC分发器，拦截所有请求 -->
     <servlet>
-        <servlet-name>springmvc</servlet-name>
+        <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <!-- 规定了 DispatcherServlet 的关联 XML 文件名称叫做 dispatcher-servlet。 -->
         <init-param>
-            <param-name>namespace</param-name>
-            <param-value>dispatcher-servlet</param-value>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:dispatcher-servlet.xml</param-value> 默认
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>springmvc</servlet-name>
+        <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 

@@ -14,7 +14,7 @@
 <body>
     hello test.jsp !!
 </body>
-<script type="text/javascript" src="">
+<script type="text/javascript">
     alert("111")
 </script>
 </html>
