@@ -1,5 +1,7 @@
 package com.maven.service;
 
-public interface IUserService extends IBaseService{
+import com.maven.model.User;
 
+public interface IUserService {
+    public User findUserNameById(int id);
 }

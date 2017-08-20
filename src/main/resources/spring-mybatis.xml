@@ -7,7 +7,7 @@
     <!-- Spring 管理文件 -->
 
     <!-- 自动扫描 -->
-    <context:component-scan base-package="com.maven.model" />
+    <context:component-scan base-package="com.maven" />
 
     <!-- 引入 jdbc.properties 属性文件 -->
     <context:property-placeholder location="classpath:jdbc.properties"/>
