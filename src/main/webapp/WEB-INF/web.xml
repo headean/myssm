@@ -10,15 +10,26 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
-    <!--  集成SpringMVC -->
+    <!-- Spring和mybatis的配置文件 -->
+    <!--把 applicationContext.xml 加入到配置文件中-->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring-mybatis.xml</param-value>
+    </context-param>
 
     <!-- 配置监听器 -->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+    <!-- 防止Spring内存溢出监听器 -->
     <listener>
         <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
     </listener>
+
+    <!-- 配置SESSION超时，单位是分钟 -->
+    <session-config>
+        <session-timeout>15</session-timeout>
+    </session-config>
 
     <!-- 配置过滤器，解决POST乱码问题 -->
     <filter>
@@ -34,7 +45,11 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+
+
+    <!--  集成SpringMVC -->
     <!-- 配置SpringMVC分发器，拦截所有请求 -->
+    <!-- Spring MVC servlet -->
     <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -49,11 +64,5 @@
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-
-    <!--把 applicationContext.xml 加入到配置文件中-->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring-mybatis.xml</param-value>
-    </context-param>
 
 </web-app>
