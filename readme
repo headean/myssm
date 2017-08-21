@@ -47,3 +47,12 @@ jdbc_url = jdbc\:mysql\://localhost\:3306/test
 jdbc_username = root
 jdbc_password = 123456
 
+2017/08/20
+
+
+2017/08/21
+昨晚不知怎么的就是睡不着，现在六点多起床看视频，哎。
+
+关于service层中dao层对象userMapper报错问题，已找到解决方法，就是严格按照Spring注解方式。
+参照：http://blog.csdn.net/busbanana/article/details/72954669
+

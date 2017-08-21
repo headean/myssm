@@ -7,8 +7,8 @@
 
     <!-- SpringMVC 配置文件 -->
 
-    <!-- 1.启用spring的一些annotation，可省略 -->
-    <context:annotation-config/>
+    <!-- 1.启用spring的一些annotation，可省略。在Spring4中似乎不需要 -->
+    <!--<context:annotation-config/>-->
 
     <!-- 3.自动扫描装配（扫描注解包），扫描包下所有使用了@Component注解的类，
             自动注册到容器中，同时也扫描@Controller，@Service，@Respository这三个注解，
@@ -28,7 +28,7 @@
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
         <property name="prefix" value="/WEB-INF/view/"/><!--设置JSP文件的目录位置-->
         <property name="suffix" value=".jsp"/>
-        <property name="exposeContextBeansAsAttributes" value="true"/>
+        <!--<property name="exposeContextBeansAsAttributes" value="true"/>-->
     </bean>
 
 </beans>
