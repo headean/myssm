@@ -17,7 +17,7 @@ public class UserControllerImp extends BaseControllerImp implements IUserControl
     private IUserService userService;
 
     @RequestMapping("test")
-    public String toIndex(HttpServletRequest request, Model model){
+    public String findUserNameById(HttpServletRequest request, Model model){
         int userId = Integer.parseInt(request.getParameter("id"));
         User user = this.userService.findUserNameById(userId);
         model.addAttribute("user", user);

@@ -1,10 +1,11 @@
 package com.maven.controller;
 
 import com.maven.service.IBaseService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 
-/**
- * Created by heartbeat on 2017/8/18.
- */
+import javax.servlet.http.HttpServletRequest;
+
 public interface IUserController{
-
+    public String findUserNameById(HttpServletRequest request, Model model);
 }
