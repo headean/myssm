@@ -48,11 +48,112 @@ jdbc_username = root
 jdbc_password = 123456
 
 2017/08/20
-
+继承HttpServlet出问题，因为没有把Tomcat的依赖加入Module。
+此处，直接将Tomcat所在本地路径中的lib文件夹下的servlet-api.jar包，并没有加入整个Tomcat，后续有需要再作调整。
 
 2017/08/21
 昨晚不知怎么的就是睡不着，现在六点多起床看视频，哎。
 
 关于service层中dao层对象userMapper报错问题，已找到解决方法，就是严格按照Spring注解方式。
 参照：http://blog.csdn.net/busbanana/article/details/72954669
+
+
+
+
+2017/08/22
+log4j2 日志：
+    http://www.cnblogs.com/zhangpengshou/p/5128050.html
+    http://blog.csdn.net/lu8000/article/details/25754415
+
+1、定义：log4j2 指log4j 2.X及以上版本
+2、安装：
+    log4j-core-xx.jar
+    log4j-api-xx.jar
+3、配置引用：
+    import org.apache.logging.log4j.LogManager;
+    import org.apache.logging.log4j.Logger;
+
+    static Logger logger = LogManager.getLogger(Test.class.getName());
+
+配置文件位置位于：src根目录下，即使没有配置文件的话也不会报错，默认以console的形式进行输出。http://www.cnblogs.com/hafiz/p/6170702.html
+log4j2配置文件与log4（1.X版本的有很大不同），只能采用.xml、.json或者 .jsn格式，具体配置如下（${web:rootDir} 表示web根目录）：
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration status="error">
+    <!--先定义所有的appender-->
+    <appenders>
+        <!--这个输出控制台的配置-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--这个是输出日志的格式-->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+        </Console>
+        <!--文件会打印出所有信息，这个log每次运行程序会自动清空，由append属性决定，适合临时测试用-->
+        <File name="Error" fileName="${web:rootDir}/logs/error.log" append="false">
+            <!--文件只记录level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout charset="UTF-8" pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+        </File>
+
+        <!--这个会打印出所有的信息，每次大小超过size，则这size大小的日志会自动存入按年份-月份建立的文件夹下面并进行压缩，作为存档-->
+        <RollingFile name="RollingFile" fileName="${web:rootDir}/logs/history.log"
+                     filePattern="log/$${date:yyyy-MM}/history-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout charset="UTF-8" pattern="%d{yyyy-MM-dd 'at' HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n"/>
+            <SizeBasedTriggeringPolicy size="50MB"/>
+        </RollingFile>
+    </appenders>
+    <!--然后定义logger，只有定义了logger并引入的appender，appender才会生效-->
+    <loggers>
+        <!--建立一个默认的root的logger-->
+        <root level="trace">
+            <appender-ref ref="Error"/>
+            <appender-ref ref="RollingFile"/>
+            <appender-ref ref="Console"/>
+        </root>
+    </loggers>
+</configuration>
+
+4、普通项目和web项目：
+对于普通项目来讲，进行以上配置完成后即可以正常使用，对于web项目来讲，是不会生成日志文件的。需要在web.xml里面<web-app>根节点下添加如下配置：
+
+<!-- log4j2.x start  -->
+<listener>
+    <listener-class>org.apache.logging.log4j.web.Log4jServletContextListener</listener-class>
+</listener>
+<filter>
+    <filter-name>log4jServletFilter</filter-name>
+    <filter-class>org.apache.logging.log4j.web.Log4jServletFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>log4jServletFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+<!-- log4j2.x end -->
+
+报错问题：ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+参考 http://blog.csdn.net/axwolfer/article/details/40718609
+运行时提示没有找到Log4j2的配置文件，使用默认配置，只显示error到控制台。
+缺省的配置等同于如下配置，其中Root指定的level是error，所有只输出了error和fatal级别的日志。
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+      <Console name="Console" target="SYSTEM_OUT">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+     <Root level="error">
+        <AppenderRef ref="Console"/>
+     </Root>
+    </Loggers>
+</Configuration>
+
+Junit单元测试
+junit generator自动生成测试代码默认路径和maven项目标准测试目录不同问题：https://my.oschina.net/laugh2last/blog/169352
+outpath设置为${SOURCEPATH}/../../test/java/${PACKAGE}/${FILENAME}【default template选junit4】
+在待编写测试的java类源码块上按快捷键（缺省）：alt+insert 或ctrl+shift+T
+
+简单的方式参考：http://blog.csdn.net/lzjqcc/article/details/72663346
+
+
 

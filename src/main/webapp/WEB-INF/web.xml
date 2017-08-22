@@ -26,6 +26,20 @@
         <listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
     </listener>
 
+    <!-- 配置 log4j2.x 日志，配置文件与以往的 log4j 不同，只能采用.xml、.json或者 .jsn格式，对于 Web 项目生成日志文件需要加入-->
+    <listener>
+        <listener-class>org.apache.logging.log4j.web.Log4jServletContextListener</listener-class>
+    </listener>
+    <filter>
+        <filter-name>log4jServletFilter</filter-name>
+        <filter-class>org.apache.logging.log4j.web.Log4jServletFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>log4jServletFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <!-- log4j2.x end -->
+
     <!-- 配置SESSION超时，单位是分钟 -->
     <session-config>
         <session-timeout>15</session-timeout>
