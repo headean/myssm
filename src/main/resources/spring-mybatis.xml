@@ -9,10 +9,10 @@
     <!-- 自动扫描 -->
     <context:component-scan base-package="com.maven" />
 
-    <!-- 引入 jdbc.properties 属性文件 -->
+    <!-- 1.引入 jdbc.properties 属性文件 -->
     <context:property-placeholder location="classpath:jdbc.properties"/>
 
-    <!-- 配置 druid 数据源，这里可以换成C3P0,DBCP等等其他的链接方式。说明：DriverManagerDataSource建立连接是只要有连接就新建一个connection,根本没有连接池的作用。 -->
+    <!-- 2.配置 druid 数据源，这里可以换成C3P0,DBCP等等其他的链接方式。说明：DriverManagerDataSource建立连接是只要有连接就新建一个connection,根本没有连接池的作用。 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="driverClassName" value="${driverClassName}"/>
         <property name="url" value="${jdbc_url}"/>
@@ -53,7 +53,7 @@
         <property name="filters" value="${filters}" />
     </bean>
 
-    <!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+    <!-- 3.spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 管理数据源 -->
         <property name="dataSource" ref="dataSource"/>
@@ -63,10 +63,12 @@
         <!-- 映射文件中 type 只需写上类名，否则需要加上全类名 -->
         <property name="typeAliasesPackage" value="com.maven.model"/>
     </bean>
+
+    <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <!--  -->
+        <!-- 注入sqlSessionFactory -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-        <!--  -->
+        <!-- 给出需要扫描Dao接口包 -->
         <property name="basePackage" value="com.maven.dao"/>
     </bean>
 
