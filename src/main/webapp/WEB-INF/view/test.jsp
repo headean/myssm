@@ -13,8 +13,16 @@
 </head>
 <body>
     hello test.jsp !!
+    <input type="checkbox" id="1" name="checkboxd" onclick="radioRelation()">
+    <input type="checkbox" id="2" name="checkboxd" onclick="radioRelation()">
+    <input type="checkbox" id="3" name="checkboxd" onclick="radioRelation()">
+    <input type="checkbox" id="4" name="checkboxd" onclick="radioRelation()">
+    <input type="checkbox" id="5" name="checkboxd" onclick="radioRelation()">
 </body>
 <script type="text/javascript">
     alert("111")
+    function radioRelation(){
+        $('input[type=checkbox]').attr('checked','checked').siblings().removeAttr('checked');
+    };
 </script>
 </html>
