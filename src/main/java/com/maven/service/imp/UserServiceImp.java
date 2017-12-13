@@ -15,7 +15,7 @@ public class UserServiceImp extends BaseServiceImp implements IUserService{
     public User findUserNameById(int id) {
 //        User user = (User) this.userMapper.findUserNameById(String.valueOf(id));
         User user = null;
-        System.out.println("null...");
+        System.out.println("业务处理模拟返回数据...");
 
         return user;
     }
