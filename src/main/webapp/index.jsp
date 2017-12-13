@@ -11,8 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    Hello World  ! ! !
-    <br>
-    你好，世界 ！！！
+    Hello World  ! !
 </body>
 </html>

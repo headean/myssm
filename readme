@@ -156,4 +156,27 @@ outpath设置为${SOURCEPATH}/../../test/java/${PACKAGE}/${FILENAME}【default t
 简单的方式参考：http://blog.csdn.net/lzjqcc/article/details/72663346
 
 
+2017/09/14
+jQuery页面加载初始化的三种方法，一下推荐使用第二种较为简洁：
+
+$(document).ready(function(){
+     alert("第一种方法。");
+});
+
+$(function(){
+    alert("第二种方法。");
+});
+
+jQuery(function($) {
+    alert("第三种方法。");
+});
+
+
+不使用jQuery的页面加载初始化方法：
+<body onload="">
+</body>
+
+window.onload=function(){
+    //要初始化的东西
+}
 
