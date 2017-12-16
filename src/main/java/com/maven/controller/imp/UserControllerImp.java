@@ -23,6 +23,7 @@ public class UserControllerImp extends BaseControllerImp implements IUserControl
     /**
      * http://localhost:8080/test1/test2?id=1
      * http://localhost:8080/user/findUserNameById?id=1
+     *
      * @param request
      * @param model
      * @return
