@@ -182,5 +182,6 @@ window.onload=function(){
 
 
 2018/1/7
-idea部署一个项目resource文件夹需要打上源文件的标记
+1.idea部署一个项目resource文件夹需要打上源文件的标记
 Moudules-resource 将文件夹设置为源文件夹，否则报错误：Artifact Examination_System:war exploded: Error during artifact deployment.
+2.测试文件夹中类报错问题，将test文件夹中java文件夹由绿色改为普通文件夹。
