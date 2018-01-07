@@ -180,3 +180,7 @@ window.onload=function(){
     //要初始化的东西
 }
 
+
+2018/1/7
+idea部署一个项目resource文件夹需要打上源文件的标记
+Moudules-resource 将文件夹设置为源文件夹，否则报错误：Artifact Examination_System:war exploded: Error during artifact deployment.
