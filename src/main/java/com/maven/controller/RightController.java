@@ -1,0 +1,36 @@
+package com.maven.controller;
+
+import com.maven.model.vo.MenuNavigationEasy;
+import com.maven.service.IRightService;
+import com.maven.util.Result;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Created with IntelliJ IDEA.
+ * Description:
+ * User: zgz
+ * Date: 2020-01-03
+ * Time: 16:00
+ */
+@Controller
+@RequestMapping("/right")
+public class RightController {
+    @Autowired
+    IRightService rightService;
+
+    @ResponseBody
+    @RequestMapping("/findMenuNavigation")
+    Result findMenuNavigation(String userId) {
+        List<Map<String, Object>> list = rightService.findMenuNavigation(userId);
+        MenuNavigationEasy menuNavigation = new MenuNavigationEasy();
+        List<Object> tree = menuNavigation.menuList(list);
+
+        return Result.success(tree);
+    }
+}

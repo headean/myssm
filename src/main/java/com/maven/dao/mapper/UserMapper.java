@@ -1,12 +1,25 @@
 package com.maven.dao.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.maven.model.User;
-import org.springframework.stereotype.Repository;
+import com.maven.util.DataGrid;
+import org.mybatis.spring.annotation.MapperScan;
 
-import java.util.List;
+import java.util.Map;
 
-// mybatis 做接口映射
-@Repository
-public interface UserMapper {
-    public List<User> findUserNameById(String user);
+@MapperScan
+public interface UserMapper extends BaseMapper<User> {
+    int deleteByPrimaryKey(Integer userId);
+
+    int insert(User record);
+
+    int insertSelective(User record);
+
+    User selectByPrimaryKey(Integer userId);
+
+    int updateByPrimaryKeySelective(User record);
+
+    int updateByPrimaryKey(User record);
+
+    DataGrid queryUserPage(Map<String, Object> params);
 }
