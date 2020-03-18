@@ -9,17 +9,17 @@ import java.util.Map;
 
 @MapperScan
 public interface UserMapper extends BaseMapper<User> {
-    int deleteByPrimaryKey(Integer userId);
-
-    int insert(User record);
-
-    int insertSelective(User record);
-
-    User selectByPrimaryKey(Integer userId);
-
-    int updateByPrimaryKeySelective(User record);
-
-    int updateByPrimaryKey(User record);
+    //int deleteByPrimaryKey(Integer userId);
+    //
+    //int insert(User record);
+    //
+    //int insertSelective(User record);
+    //
+    //User selectByPrimaryKey(Integer userId);
+    //
+    //int updateByPrimaryKeySelective(User record);
+    //
+    //int updateByPrimaryKey(User record);
 
     DataGrid queryUserPage(Map<String, Object> params);
 }

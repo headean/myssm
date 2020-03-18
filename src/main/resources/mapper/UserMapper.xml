@@ -1,18 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!--这里的namespace必须和是对应的mapper.java的地址-->
 <mapper namespace="com.maven.dao.mapper.UserMapper">
-    <!--这里的type，因为我在spring-mybatis.xml中配置了包的简称，所以不需要再写包名了，否则需要加上，id的话在后面的ResultMap中会用到，如果像我这样实体类的属性和数据库字段名不一致，则需要用ResultMap作为返回值，否则获取的值的字段会变成null-->
-    <resultMap type="User" id="UserMap">
-        <result property="id" column="ID"/>
-        <result property="userName" column="USER_NAME"/>
-        <result property="passWord" column="PASSWORD"/>
-        <result property="age" column="AGE"/>
-        <result property="sex" column="SEX"/>
+    <resultMap id="BaseResultMap" type="com.maven.model.User">
+        <constructor>
+            <idArg column="user_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+            <arg column="user_no" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="user_pwd" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="user_name" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="email" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="phone" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="enable" javaType="java.lang.Integer" jdbcType="INTEGER" />
+            <arg column="gen_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+            <arg column="login_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+            <arg column="last_login_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+            <arg column="login_count" javaType="java.lang.Integer" jdbcType="INTEGER" />
+        </constructor>
     </resultMap>
-    <!--id必须和对应的mapper.java的方法名称相同，不管返回类型是List还是只有一个，resultMap或resultType都是一样的-->
-    <select id="findUserNameById" parameterType="String" resultMap="UserMap">
-        SELECT * FROM MYSSM_USER
-        WHERE USER_ID = #{userId}
+
+    <sql id="Base_Column_List">
+    user_id, user_no, user_pwd, user_name, email, phone, enable, gen_time, login_time,
+    last_login_time, login_count
+  </sql>
+
+    <select id="queryUserPage" parameterType="java.util.Map" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from sys_user
     </select>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from sys_user
+        where user_id = #{userId,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from sys_user
+    where user_id = #{userId,jdbcType=INTEGER}
+  </delete>
+    <insert id="insert" parameterType="com.maven.model.User">
+    insert into sys_user (user_id, user_no, user_pwd,
+      user_name, email, phone,
+      enable, gen_time, login_time,
+      last_login_time, login_count)
+    values (#{userId,jdbcType=INTEGER}, #{userNo,jdbcType=VARCHAR}, #{userPwd,jdbcType=VARCHAR},
+      #{userName,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR},
+      #{enable,jdbcType=INTEGER}, #{genTime,jdbcType=TIMESTAMP}, #{loginTime,jdbcType=TIMESTAMP},
+      #{lastLoginTime,jdbcType=TIMESTAMP}, #{loginCount,jdbcType=INTEGER})
+  </insert>
+    <insert id="insertSelective" parameterType="com.maven.model.User">
+        insert into sys_user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                user_id,
+            </if>
+            <if test="userNo != null">
+                user_no,
+            </if>
+            <if test="userPwd != null">
+                user_pwd,
+            </if>
+            <if test="userName != null">
+                user_name,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="enable != null">
+                enable,
+            </if>
+            <if test="genTime != null">
+                gen_time,
+            </if>
+            <if test="loginTime != null">
+                login_time,
+            </if>
+            <if test="lastLoginTime != null">
+                last_login_time,
+            </if>
+            <if test="loginCount != null">
+                login_count,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                #{userId,jdbcType=INTEGER},
+            </if>
+            <if test="userNo != null">
+                #{userNo,jdbcType=VARCHAR},
+            </if>
+            <if test="userPwd != null">
+                #{userPwd,jdbcType=VARCHAR},
+            </if>
+            <if test="userName != null">
+                #{userName,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                #{phone,jdbcType=VARCHAR},
+            </if>
+            <if test="enable != null">
+                #{enable,jdbcType=INTEGER},
+            </if>
+            <if test="genTime != null">
+                #{genTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="loginTime != null">
+                #{loginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="lastLoginTime != null">
+                #{lastLoginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="loginCount != null">
+                #{loginCount,jdbcType=INTEGER},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.maven.model.User">
+        update sys_user
+        <set>
+            <if test="userNo != null">
+                user_no = #{userNo,jdbcType=VARCHAR},
+            </if>
+            <if test="userPwd != null">
+                user_pwd = #{userPwd,jdbcType=VARCHAR},
+            </if>
+            <if test="userName != null">
+                user_name = #{userName,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                phone = #{phone,jdbcType=VARCHAR},
+            </if>
+            <if test="enable != null">
+                enable = #{enable,jdbcType=INTEGER},
+            </if>
+            <if test="genTime != null">
+                gen_time = #{genTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="loginTime != null">
+                login_time = #{loginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="lastLoginTime != null">
+                last_login_time = #{lastLoginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="loginCount != null">
+                login_count = #{loginCount,jdbcType=INTEGER},
+            </if>
+        </set>
+        where user_id = #{userId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.maven.model.User">
+    update sys_user
+    set user_no = #{userNo,jdbcType=VARCHAR},
+      user_pwd = #{userPwd,jdbcType=VARCHAR},
+      user_name = #{userName,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      enable = #{enable,jdbcType=INTEGER},
+      gen_time = #{genTime,jdbcType=TIMESTAMP},
+      login_time = #{loginTime,jdbcType=TIMESTAMP},
+      last_login_time = #{lastLoginTime,jdbcType=TIMESTAMP},
+      login_count = #{loginCount,jdbcType=INTEGER}
+    where user_id = #{userId,jdbcType=INTEGER}
+  </update>
 </mapper>

@@ -26,4 +26,12 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     public DataGrid queryUserPage(Map<String, Object> params) {
         return userMapper.queryUserPage(params);
     }
+
+    //    public User findUserNameById(int id) {
+    ////        User user = (User) this.userMapper.findUserNameById(String.valueOf(id));
+    //        User user = null;
+    //        System.out.println("业务处理模拟返回数据...");
+    //
+    //        return user;
+    //    }
 }

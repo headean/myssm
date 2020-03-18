@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maven.dao.mapper.RightMapper">
+    <resultMap id="BaseResultMap" type="com.maven.model.Right">
+        <constructor>
+            <idArg column="right_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+            <arg column="right_name" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="right_parent_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+            <arg column="description" javaType="java.lang.String" jdbcType="VARCHAR" />
+            <arg column="enable" javaType="java.lang.Integer" jdbcType="INTEGER" />
+            <arg column="gen_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+        </constructor>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        right_id, right_name, right_parent_id, description, enable, gen_time
+    </sql>
+
+    <select id="findMenuNavigation" parameterType="java.lang.String" resultType="java.util.HashMap">
+        select distinct
+        m.right_id,
+        m.right_name,
+        m.right_parent_id,
+        m.description
+        from sys_right as m
+        left join sys_role_right as rm
+        on m.right_id = rm.right_id
+        where role_id in (select role_id from sys_user_role where user_id=#{userId} and enable='1')
+        and m.enable='1' and rm.enable='1'
+        order by right_id asc
+    </select>
+
+    <!--<select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from sys_right
+        where right_id = #{rightId,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from sys_right
+        where right_id = #{rightId,jdbcType=INTEGER}
+      </delete>
+    <insert id="insert" parameterType="com.maven.model.Right">
+    insert into sys_right (right_id, right_name, right_parent_id,
+      description, enable, gen_time
+      )
+    values (#{rightId,jdbcType=INTEGER}, #{rightName,jdbcType=VARCHAR}, #{rightParentId,jdbcType=INTEGER},
+      #{description,jdbcType=VARCHAR}, #{enable,jdbcType=INTEGER}, #{genTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+    <insert id="insertSelective" parameterType="com.maven.model.Right">
+        insert into sys_right
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="rightId != null">
+                right_id,
+            </if>
+            <if test="rightName != null">
+                right_name,
+            </if>
+            <if test="rightParentId != null">
+                right_parent_id,
+            </if>
+            <if test="description != null">
+                description,
+            </if>
+            <if test="enable != null">
+                enable,
+            </if>
+            <if test="genTime != null">
+                gen_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="rightId != null">
+                #{rightId,jdbcType=INTEGER},
+            </if>
+            <if test="rightName != null">
+                #{rightName,jdbcType=VARCHAR},
+            </if>
+            <if test="rightParentId != null">
+                #{rightParentId,jdbcType=INTEGER},
+            </if>
+            <if test="description != null">
+                #{description,jdbcType=VARCHAR},
+            </if>
+            <if test="enable != null">
+                #{enable,jdbcType=INTEGER},
+            </if>
+            <if test="genTime != null">
+                #{genTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.maven.model.Right">
+        update sys_right
+        <set>
+            <if test="rightName != null">
+                right_name = #{rightName,jdbcType=VARCHAR},
+            </if>
+            <if test="rightParentId != null">
+                right_parent_id = #{rightParentId,jdbcType=INTEGER},
+            </if>
+            <if test="description != null">
+                description = #{description,jdbcType=VARCHAR},
+            </if>
+            <if test="enable != null">
+                enable = #{enable,jdbcType=INTEGER},
+            </if>
+            <if test="genTime != null">
+                gen_time = #{genTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where right_id = #{rightId,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.maven.model.Right">
+        update sys_right
+        set right_name = #{rightName,jdbcType=VARCHAR},
+          right_parent_id = #{rightParentId,jdbcType=INTEGER},
+          description = #{description,jdbcType=VARCHAR},
+          enable = #{enable,jdbcType=INTEGER},
+          gen_time = #{genTime,jdbcType=TIMESTAMP}
+        where right_id = #{rightId,jdbcType=INTEGER}
+      </update>-->
+</mapper>
