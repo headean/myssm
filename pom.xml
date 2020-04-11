@@ -40,18 +40,24 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.60</version>
+            <version>1.2.62</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
-        <dependency>
+        <!-- <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus</artifactId>
             <version>3.3.0</version>
-        </dependency>
+        </dependency> -->
         <!-- 代码生成器 -->
-        <dependency>
+        <!-- <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.3.0</version>
+        </dependency> -->
+        <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.0</version>
         </dependency>
         <dependency>
@@ -165,7 +171,7 @@
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
-            <version>4.2.1</version>
+            <version>5.1.2</version>
         </dependency>
 
 
@@ -173,46 +179,46 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <!--spring ioc依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <!--spring 扩展依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <!--2)spring dao层依赖-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <!--3)spring web相关依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.2.9.RELEASE</version>
+            <version>4.3.8.RELEASE</version>
         </dependency>
 
         <!--mybatis逆向工程 -->
