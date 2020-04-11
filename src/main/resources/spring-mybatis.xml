@@ -54,6 +54,7 @@
     </bean>
 
     <!-- 3.spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+<!--    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">-->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <!-- 管理数据源 -->
         <property name="dataSource" ref="dataSource"/>
