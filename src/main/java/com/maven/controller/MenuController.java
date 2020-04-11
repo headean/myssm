@@ -1,7 +1,7 @@
 package com.maven.controller;
 
 import com.maven.model.vo.MenuNavigationEasy;
-import com.maven.service.IRightService;
+import com.maven.service.IMenuService;
 import com.maven.util.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,15 +19,15 @@ import java.util.Map;
  * Time: 16:00
  */
 @Controller
-@RequestMapping("/right")
-public class RightController {
+@RequestMapping("/menu")
+public class MenuController {
     @Autowired
-    IRightService rightService;
+    IMenuService menuService;
 
     @ResponseBody
     @RequestMapping("/findMenuNavigation")
     Result findMenuNavigation(String userId) {
-        List<Map<String, Object>> list = rightService.findMenuNavigation(userId);
+        List<Map<String, Object>> list = menuService.findMenuNavigation(userId);
         MenuNavigationEasy menuNavigation = new MenuNavigationEasy();
         List<Object> tree = menuNavigation.menuList(list);
 

@@ -2,35 +2,35 @@ package com.maven.model;
 
 import java.util.Date;
 
-public class RoleRight {
-    private Integer roleRightId;
+public class RoleMenu {
+    private Integer roleMenuId;
 
     private Integer roleId;
 
-    private Integer rightId;
+    private Integer menuId;
 
     private Integer enable;
 
     private Date genTime;
 
-    public RoleRight(Integer roleRightId, Integer roleId, Integer rightId, Integer enable, Date genTime) {
-        this.roleRightId = roleRightId;
+    public RoleMenu(Integer roleMenuId, Integer roleId, Integer menuId, Integer enable, Date genTime) {
+        this.roleMenuId = roleMenuId;
         this.roleId = roleId;
-        this.rightId = rightId;
+        this.menuId = menuId;
         this.enable = enable;
         this.genTime = genTime;
     }
 
-    public RoleRight() {
+    public RoleMenu() {
         super();
     }
 
-    public Integer getRoleRightId() {
-        return roleRightId;
+    public Integer getRoleMenuId() {
+        return roleMenuId;
     }
 
-    public void setRoleRightId(Integer roleRightId) {
-        this.roleRightId = roleRightId;
+    public void setRoleMenuId(Integer roleMenuId) {
+        this.roleMenuId = roleMenuId;
     }
 
     public Integer getRoleId() {
@@ -41,12 +41,12 @@ public class RoleRight {
         this.roleId = roleId;
     }
 
-    public Integer getRightId() {
-        return rightId;
+    public Integer getMenuId() {
+        return menuId;
     }
 
-    public void setRightId(Integer rightId) {
-        this.rightId = rightId;
+    public void setMenuId(Integer menuId) {
+        this.menuId = menuId;
     }
 
     public Integer getEnable() {

@@ -1,9 +1,9 @@
 package com.maven.service.imp;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.maven.dao.mapper.RightMapper;
-import com.maven.model.Right;
-import com.maven.service.IRightService;
+import com.maven.dao.mapper.MenuMapper;
+import com.maven.model.Menu;
+import com.maven.service.IMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,12 +18,12 @@ import java.util.Map;
  * Time: 16:06
  */
 @Service
-public class RightServiceImpl extends ServiceImpl<RightMapper, Right> implements IRightService {
+public class MenuServiceImpl extends ServiceImpl<MenuMapper, Menu> implements IMenuService {
     @Autowired
-    RightMapper rightMapper;
+    MenuMapper menuMapper;
 
     @Override
     public List<Map<String, Object>> findMenuNavigation(String userId) {
-        return rightMapper.findMenuNavigation(userId);
+        return menuMapper.findMenuNavigation(userId);
     }
 }

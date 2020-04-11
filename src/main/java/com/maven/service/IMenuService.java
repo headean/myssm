@@ -10,6 +10,6 @@ import java.util.Map;
  * Date: 2020-01-03
  * Time: 16:03
  */
-public interface IRightService {
+public interface IMenuService {
     List<Map<String, Object>> findMenuNavigation(String userId);
 }

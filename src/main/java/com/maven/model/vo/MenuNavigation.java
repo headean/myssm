@@ -21,11 +21,11 @@ public class MenuNavigation {
         this.menuCommon = menu;
         for (Map<String,Object> x : menu) {
             Map<String,Object> mapArr = new LinkedHashMap<String, Object>();
-            if("0".equals(String.valueOf(x.get("rightParentId")))){
-                mapArr.put("id", x.get("rightId"));
-                mapArr.put("text", x.get("rightName"));
-                mapArr.put("parentid", x.get("rightParentId"));
-                mapArr.put("children", menuChild(String.valueOf(x.get("rightId"))));
+            if("0".equals(String.valueOf(x.get("menuParentId")))){
+                mapArr.put("id", x.get("menuId"));
+                mapArr.put("text", x.get("menuName"));
+                mapArr.put("parentid", x.get("menuParentId"));
+                mapArr.put("children", menuChild(String.valueOf(x.get("menuId"))));
                 list.add(mapArr);
             }
         }
@@ -38,12 +38,12 @@ public class MenuNavigation {
         for(Map<String,Object> a:menuCommon){
             Map<String,Object> childArray = new LinkedHashMap<String, Object>();
             //String menuParentId = String.valueOf(a.get("menuParentId"));
-            if(str.equals(String.valueOf(a.get("rightParentId")))){
-                childArray.put("id", a.get("rightId"));
-                childArray.put("text", a.get("rightName"));
-                childArray.put("parentid", a.get("rightParentId"));
-                //childArray.put("url", a.get("rightUrl"));
-                childArray.put("children", menuChild(String.valueOf(a.get("rightId"))));
+            if(str.equals(String.valueOf(a.get("menuParentId")))){
+                childArray.put("id", a.get("menuId"));
+                childArray.put("text", a.get("menuName"));
+                childArray.put("parentid", a.get("menuParentId"));
+                //childArray.put("url", a.get("menuUrl"));
+                childArray.put("children", menuChild(String.valueOf(a.get("menuId"))));
                 lists.add(childArray);
             }
         }
