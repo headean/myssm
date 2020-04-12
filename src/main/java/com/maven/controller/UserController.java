@@ -1,16 +1,24 @@
 package com.maven.controller;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.maven.model.User;
 import com.maven.service.IUserService;
 import com.maven.util.DataGrid;
 import com.maven.util.Result;
-import com.maven.util.ResultCode;
-import org.apache.commons.lang3.StringUtils;
+import com.maven.util.SHA256Util;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
+import org.mybatis.generator.internal.util.HashCodeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -29,13 +37,98 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
+    /**
+     * http://127.0.0.1:8080/login?username=0001&password=123456
+     *  @param username
+     * @param password
+     * @return
+     */
+    @PostMapping("/login")
+    public ModelAndView doLogin(String username, String password) {
+        /**
+         * http://localhost:8080/myssm/admin/sys-user/login
+         * http://localhost:8080/myssm/logout
+         * 1.user SecurityUtils.getSubject().getSession() 可以获取到session信息
+         * 2.设置超时时间
+         * 3.设置记住用户
+         * 4.设置本地IP
+         */
+        Subject subject = SecurityUtils.getSubject();
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/login.jsp");
+        /**
+         * 必须在这个过程加密，SimpleAuthenticationInfo的第二个参数和UsernamePasswordToken中获取的密码比对
+         */
+        UsernamePasswordToken token = new UsernamePasswordToken(username, SHA256Util.getSHA256StrJava(password));
+        System.out.println("password..." + SHA256Util.getSHA256StrJava(password));
+        token.setRememberMe(true);
+        token.setHost("127.0.0.1");
+
+        try {
+            subject.login(token);
+
+            if (subject.isAuthenticated()) {
+                System.out.println("登录成功! ==> 8080");
+                String principal = (String) subject.getPrincipal();
+
+                subject.getSession().setAttribute("username", principal);
+                subject.getSession().setTimeout(10000);
+
+                modelAndView.setViewName("success");
+
+                return modelAndView;
+            }
+        } catch (AuthenticationException e) {
+            e.printStackTrace();
+            System.out.println("登录失败! ==> 8080");
+            return modelAndView;
+        }
+
+        return modelAndView;
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        System.out.println("hello...8080");
+        return "hello ==> 8080";
+    }
+
+//    @RequestMapping(value = "/login",method = RequestMethod.POST)
+//    public String login(HttpServletRequest req , HttpSession session){
+//        String username = req.getParameter("username");
+//        String password = req.getParameter("password");
+//        Subject subject = SecurityUtils.getSubject();
+//
+//        try {
+//
+//            subject.login(new UsernamePasswordToken(username, password));
+//            if (subject.isAuthenticated()) {
+//                String principal = (String) subject.getPrincipal();
+//
+//                session.setAttribute("username", principal);
+//
+//                return "redirect:/success";
+//            }
+//
+//        } catch (Exception e) {
+//            req.setAttribute("shiroLoginFailure", e.getClass().getName());
+//        }
+//
+//        return "redirect:login.jsp";
+//    }
+
+    @RequestMapping("/success")
+    public String sucess(){
+        return "success";
+    }
+
     public Result getById(Serializable id){
         User user = userService.getById(id);
         return Result.success(user);
     }
 
     /**
-     * http://127.0.0.1:8002/admin/sys-user/queryUserPage
+     * http://127.0.0.1:8080/myssm/admin/sys-user/queryUserPage
      * easyDataGrid 分页查询
      * @return
      */
