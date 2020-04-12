@@ -4,11 +4,10 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.maven.dao.mapper.MenuMapper;
 import com.maven.model.Menu;
 import com.maven.service.IMenuService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
+import javax.annotation.Resource;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,9 +16,9 @@ import java.util.Map;
  * Date: 2020-01-03
  * Time: 16:06
  */
-@Service
+@Service("menuService")
 public class MenuServiceImpl extends ServiceImpl<MenuMapper, Menu> implements IMenuService {
-    @Autowired
+	@Resource
     MenuMapper menuMapper;
 
     @Override

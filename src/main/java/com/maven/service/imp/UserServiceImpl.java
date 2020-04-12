@@ -5,10 +5,9 @@ import com.maven.dao.mapper.UserMapper;
 import com.maven.model.User;
 import com.maven.service.IUserService;
 import com.maven.util.DataGrid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.Map;
+import javax.annotation.Resource;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,9 +16,9 @@ import java.util.Map;
  * Date: 2020-01-06
  * Time: 11:11
  */
-@Service
+@Service("userService")
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
-    @Autowired
+	@Resource
     UserMapper userMapper;
 
     @Override

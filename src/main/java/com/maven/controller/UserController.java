@@ -1,6 +1,5 @@
 package com.maven.controller;
 
-import at.favre.lib.crypto.bcrypt.BCrypt;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.maven.model.User;
 import com.maven.service.IUserService;
@@ -11,15 +10,13 @@ import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
-import org.mybatis.generator.internal.util.HashCodeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
-
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Map;
@@ -31,8 +28,8 @@ import java.util.Map;
  * Date: 2020-01-06
  * Time: 11:09
  */
-@RestController
-@RequestMapping("/admin/sys-user")
+@Controller
+@RequestMapping()
 public class UserController {
     @Autowired
     private IUserService userService;

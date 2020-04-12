@@ -10,7 +10,10 @@
     <!-- Spring 管理文件 -->
 
     <!-- 自动扫描 -->
-    <context:component-scan base-package="com.maven" />
+    <context:component-scan base-package="com.maven.service" />
+    <!--<context:component-scan base-package="com.maven.*">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>-->
 
     <!-- 1.引入 jdbc.properties 属性文件 -->
     <context:property-placeholder location="classpath:jdbc.properties"/>
@@ -58,9 +61,11 @@
 
     <!-- 3.spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
 <!--    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">-->
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <!-- <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> -->
+    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
         <!-- 管理数据源 -->
         <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <!-- 映射文件，这里注意 idea 编译的时候配置文件必须置于 resource 文件夹下 -->
         <!--<property name="mapperLocations" value="classpath:com/maven/dao/*Mapper.xml"/>-->
         <property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
@@ -71,9 +76,9 @@
     <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- 注入sqlSessionFactory -->
-        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <!-- 给出需要扫描Dao接口包 -->
-        <property name="basePackage" value="com.maven.dao"/>
+        <property name="basePackage" value="com.maven.dao.mapper"/>
     </bean>
 
     <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->

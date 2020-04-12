@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="myssm.war">
+    <root id="archive" name="myssm-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="myssm:war exploded" />
     </root>
   </artifact>
