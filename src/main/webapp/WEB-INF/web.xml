@@ -59,8 +59,6 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-
-
     <!--  集成SpringMVC -->
     <!-- 配置SpringMVC分发器，拦截所有请求 -->
     <!-- Spring MVC servlet -->
@@ -70,7 +68,7 @@
         <!-- 规定了 DispatcherServlet 的关联 XML 文件名称叫做 dispatcher-servlet。 -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:dispatcher-servlet.xml</param-value> 默认
+            <param-value>classpath:dispatcher-servlet.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

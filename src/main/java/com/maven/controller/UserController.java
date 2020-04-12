@@ -29,13 +29,13 @@ import java.util.Map;
  * Time: 11:09
  */
 @Controller
-@RequestMapping()
+@RequestMapping("/admin/sys-user")
 public class UserController {
     @Autowired
     private IUserService userService;
 
     /**
-     * http://127.0.0.1:8080/login?username=0001&password=123456
+     * http://127.0.0.1:8080/myssm/admin/sys-user/login?username=0001&password=123456
      *  @param username
      * @param password
      * @return
@@ -69,7 +69,7 @@ public class UserController {
                 String principal = (String) subject.getPrincipal();
 
                 subject.getSession().setAttribute("username", principal);
-                subject.getSession().setTimeout(10000);
+                subject.getSession().setTimeout(30000);
 
                 modelAndView.setViewName("success");
 

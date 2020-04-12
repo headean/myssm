@@ -18,11 +18,16 @@ import java.util.Map;
  * Time: 16:00
  */
 @Controller
-@RequestMapping
+@RequestMapping("/admin/sys-menu")
 public class MenuController {
     @Autowired
     IMenuService menuService;
 
+    /**
+     * http://127.0.0.1:8080/myssm/admin/sys-user/findMenuNavigation
+     * @param userId
+     * @return
+     */
     @ResponseBody
     @RequestMapping("/findMenuNavigation")
     Result findMenuNavigation(String userId) {
