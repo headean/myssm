@@ -22,7 +22,7 @@
     last_login_time, login_count
   </sql>
 
-    <select id="queryUserPage" parameterType="java.util.Map" resultMap="BaseResultMap">
+    <select id="queryUserPage" parameterType="java.util.Map" resultType="java.util.Map">
         select
         <include refid="Base_Column_List" />
         from sys_user

@@ -5,6 +5,7 @@ import com.maven.model.User;
 import com.maven.util.DataGrid;
 import org.mybatis.spring.annotation.MapperScan;
 
+import java.util.List;
 import java.util.Map;
 
 @MapperScan
@@ -21,5 +22,5 @@ public interface UserMapper extends BaseMapper<User> {
     //
     //int updateByPrimaryKey(User record);
 
-    DataGrid queryUserPage(Map<String, Object> params);
+    List<Map<String, String>> queryUserPage(Map<String, Object> params);
 }

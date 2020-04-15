@@ -1,6 +1,7 @@
 package com.maven.controller;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.github.pagehelper.PageInfo;
 import com.maven.model.User;
 import com.maven.service.IUserService;
 import com.maven.util.DataGrid;
@@ -133,15 +134,15 @@ public class UserController {
     @RequestMapping("/queryUserPage")
     //@RequiresPermissions("sys:user:list")
     public Result queryUserPage(Map<String, Object> params){
-        DataGrid dataGrid = new DataGrid();
+        PageInfo pageInfo = new PageInfo();
 
         try {
-            dataGrid = userService.queryUserPage(params);
+            pageInfo = userService.queryUserPage(params);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return Result.success(dataGrid);
+        return Result.success(pageInfo);
     }
 
     /**

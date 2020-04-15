@@ -1,6 +1,7 @@
 package com.maven.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.github.pagehelper.PageInfo;
 import com.maven.model.User;
 import com.maven.util.DataGrid;
 
@@ -14,5 +15,5 @@ import java.util.Map;
  * Time: 11:11
  */
 public interface IUserService extends IService<User> {
-    DataGrid queryUserPage(Map<String, Object> params);
+    PageInfo queryUserPage(Map<String, Object> params);
 }
