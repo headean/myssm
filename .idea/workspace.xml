@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="myssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ed59a97-b263-49b5-bfcd-764c4469b11b" name="Default Changelist" comment="update pom&#10;***log4j版本回退***">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myssm_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/myssm_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__at_favre_lib_bcrypt_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__at_favre_lib_bytes_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibeetl_beetl_3_0_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_web_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_starter_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_web_starter_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_26_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/controller/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/IBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper/RoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper/SysLockRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/dao/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/RoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/SysLockRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/vo/MenuNavigation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/model/vo/MenuNavigationEasy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/service/IBaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/service/IMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/service/imp/BaseServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/service/imp/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/service/imp/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/shiro/UserRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/Dblock/Dblock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/Dblock/StockTest$StockThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/Dblock/StockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/Dblock/stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/ListToString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/SellTickets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/TestFor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/json/gson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/dynamicProxy/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/dynamicProxy/ProxyFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/dynamicProxy/ProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/dynamicProxy/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/staticProxy/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/staticProxy/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/proxy/staticProxy/UserDaoProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/thread/ExecutorsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/test/thread/SubThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/DataGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/MyLogger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/maven/util/SHA256Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/lo4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysLockRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/controller/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/IBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/mapper/RoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/mapper/SysLockRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/dao/mapper/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/RoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/SysLockRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/vo/MenuNavigation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/model/vo/MenuNavigationEasy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/service/IBaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/service/IMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/service/imp/BaseServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/service/imp/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/service/imp/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/shiro/UserRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/Dblock/Dblock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/Dblock/StockTest$StockThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/Dblock/StockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/Dblock/stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/ListToString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/SellTickets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/TestFor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/json/gson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/dynamicProxy/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/dynamicProxy/ProxyFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/dynamicProxy/ProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/dynamicProxy/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/staticProxy/IUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/staticProxy/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/proxy/staticProxy/UserDaoProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/thread/ExecutorsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/test/thread/SubThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/DataGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/MyLogger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/com/maven/util/SHA256Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/lo4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/SysLockRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/antlr4-runtime-4.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/asm-commons-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/asm-tree-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.6.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/bcrypt-0.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/beetl-3.0.16.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/bytes-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-2.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.22.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/encoder-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/error_prone_annotations-2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/failureaccess-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.68.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/freemarker-2.3.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/guava-29.0-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.18.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/j2objc-annotations-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-generator-core-1.3.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-plus-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-plus-annotation-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-plus-core-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-plus-extension-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-plus-generator-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-cache-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-config-core-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-config-ogdl-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-core-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-crypto-cipher-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-crypto-core-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-crypto-hash-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-event-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-lang-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-boot-starter-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-spring-boot-web-starter-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/shiro-web-1.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-validation-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.26.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/lib/velocity-engine-core-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/view/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/view/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/view/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/common.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/compatible.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/easy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/easyui.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/getcode_chinese.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/inc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/inc_easy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/tag.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/common/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery-validation/jquery.metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery-validation/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery-validation/messages_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery-validation/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery/jquery-1.3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery/jquery-1.5.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/jquery/jquery-1.9.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/core/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/core/inject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/ligerui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/ligerui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerAccordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerCheckBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerCheckBoxList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerComboBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerDateEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerDrag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerEasyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerListBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerMenuBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerMessageBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerPopupEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerPortal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerRadio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerRadioList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerResizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerSpinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerTextBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerTip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerToolBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/js/plugins/ligerWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/css/ligerui-tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/bigloading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/button-disabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/button-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/drop-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/exclamation.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/invalid-line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/common/toggle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-panel-title-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-panel-title-pressed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-panel-title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-tab-title-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-tab-title-pressed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-tab-title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-text.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-trigger-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-trigger-pressed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/bg-trigger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/btn-l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/btn-r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/button-bg-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/checkbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/dateeditor-bar-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/dateeditor-header-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/controls/radio.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/dateeditor/date.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/dateeditor/icon-first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/dateeditor/icon-last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/dateeditor/icon-next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/dateeditor/icon-prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/form/verify-corner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/grid-checkbox-checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/grid-checkbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/grid-detail-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/grid-detail-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/grid-tree-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/grid-tree-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/header-bg-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/header-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/header2-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/popup-line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/grid/popup-row-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/bar-button-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/checkbox-checked.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/checkbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/cross.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-close-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-drop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-edited.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-load.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-sort-asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-sort-desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-unselect.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/icon-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/icon/spr_icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/accordion-content.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/accordion-header-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/accordion-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/closeAll.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/layout-header-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/layout-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/layout-sidebar-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/mini-bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/mini-left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/mini-right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/mini-top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/panel-content.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/panel-header-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/panel-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/panel-header2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/tabs-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/tabs-item-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/tabs-item-left-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/tabs-item-over-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/tabs-item-right-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/tabs-tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/layout/togglebar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-item-arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-item-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-item-over-l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-item-over-m.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-item-over-r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-line-x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/menu/menu-line-y.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/bar-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/header-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/header2-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-btn-l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-btn-r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-menu-item-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-toolbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/panel/panel-tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/folder-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/nodeloading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/nodeloading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/nodeloading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/nodeloading4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree-leaf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree-level.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree-noline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree-status-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree-status-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree-status.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/tree/tree.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/ui/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/ui/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/ui/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/ui/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/ui/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/ui/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/box-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/box.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/dialog-bc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/dialog-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/dialog-tc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/dialog-winbtns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/dialog.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/dialogbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/taskbar-task.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/taskbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/taskbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Aqua/images/win/taskicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/css/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/accordion-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/icon-close-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/icon-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/layout-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-item-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-item-left-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-item-left-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-item-right-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-item-right-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/tabs-item-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/layout/togglebar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/button-disabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/button-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/button1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/button2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/dateeditor-bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/dateeditor-btn-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/dateeditor-btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/dateeditor-thead.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/grid-detail-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/grid-detail-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/gridalt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/gridbar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/grideditor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/icon-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/icon-select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/icon-unselect.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/icon-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/input.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/inputdisabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/loading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/loading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/loading4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/ui/trigger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/win/dialog-winbtns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/win/dialogbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray/images/win/dialogicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/css/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/bigloading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/gridheader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/accordion-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/icon-close-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/icon-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/layout-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-item-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-item-left-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-item-left-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-item-right-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-item-right-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabs-item-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/tabswitch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/layout/togglebar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/tab_arrow_spr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/tab_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/button-disabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/button-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/button1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/button2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/date.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/dateeditor-bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/dateeditor-btn-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/dateeditor-btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/dateeditor-thead.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/grid-detail-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/grid-detail-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/gridalt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/gridbar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/grideditor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/icon-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/icon-select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/icon-select2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/icon-unselect.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/icon-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/input.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/inputdisabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/loading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/loading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/loading4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/loadingl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/panel-btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/spr_icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/ui/trigger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/win/dialog-winbtns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/win/dialogbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Gray2014/images/win/dialogicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/checkboxradio.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/icon-down-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/icon-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/icon-up-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/icon-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/invalid_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-date-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-down-icon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-focus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-l-focus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-l-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-l.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-r-focus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-r-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text-r.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/form/text.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/grid/gridheaderbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/accordion-header-over.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/accordion-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/layout-header-over.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/layout-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/tabs-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/tabs-item-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/tabs-item-left-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/tabs-item-over-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/tabs-item-right-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Silvery/images/layout/tabs-tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/css/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/css/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/css/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/gridheader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/accordion-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/icon-close-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/icon-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/layout-header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-item-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-item-left-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-item-left-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-item-right-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-item-right-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/tabs-item-selected.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/layout/togglebar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/tab_arrow_spr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/tab_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/button-disabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/button-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/button1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/button2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/date.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/dateeditor-bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/dateeditor-btn-over.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/dateeditor-btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/dateeditor-thead.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/grid-detail-close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/grid-detail-open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/gridalt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/gridbar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/grideditor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/icon-down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/icon-select.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/icon-select2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/icon-unselect.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/icon-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/input.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/inputdisabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/loading2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/loading3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/loading4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/loadingl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/spr_icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/ui/trigger.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/win/dialog-winbtns.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/win/dialogbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/Tab/images/win/dialogicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/archives.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/attibutes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/back.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/bluebook.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/bookpen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/busy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/candle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/coffee.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/comment.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/communication.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/config.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/customers.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/cut.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/database.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/discuss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/graywarn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/greenwarn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/help.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/logout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/mailbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/memeber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/modify.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/msn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/myaccount.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/outbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/pager.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/photograph.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/print.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/process.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/qq.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/refresh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/role.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/save-disabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/save.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/search2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/settings.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/true.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/icons/view.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/js/ligerUI/skins/ligerui-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/myssm-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/maven/service/imp/UserServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="myssm" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aaF65FUugkOPviQ6julaNEHmeI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.50689656" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_myssm_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62389" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="62390" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="myssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/myssm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_myssm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62387" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="62388" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="myssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_myssm" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62387" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="62388" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.13319673" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ed59a97-b263-49b5-bfcd-764c4469b11b" name="Default Changelist" comment="" />
+      <created>1586965618857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586965618857</updated>
+      <workItem from="1586965632245" duration="3658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="73" key="#TomEE_Server" timestamp="1586965774284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="73" key="#TomEE_Server/0.0.1536.824@0.0.1536.824" timestamp="1586965774284" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586967031255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586967031255" />
+    <state x="360" y="73" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1586967029198">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="73" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1586967029198" />
+    <state x="267" y="0" key="CommitChangelistDialog2" timestamp="1586969440514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="267" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586969440514" />
+    <state x="147" y="64" key="DiffContextDialog" timestamp="1586969411923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586969411923" />
+    <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1586968544571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586968544571" />
+    <state width="1493" height="261" key="GridCell.Tab.-1.bottom" timestamp="1586967285118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.-1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586967285118" />
+    <state width="1493" height="261" key="GridCell.Tab.-1.center" timestamp="1586967285118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.-1.center/0.0.1536.824@0.0.1536.824" timestamp="1586967285118" />
+    <state width="1493" height="261" key="GridCell.Tab.-1.left" timestamp="1586967285122">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.-1.left/0.0.1536.824@0.0.1536.824" timestamp="1586967285122" />
+    <state width="1493" height="261" key="GridCell.Tab.-1.right" timestamp="1586967285162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.-1.right/0.0.1536.824@0.0.1536.824" timestamp="1586967285162" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586969317557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586969317557" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586969317556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586969317556" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1586969317557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586969317557" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1586969317557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586969317557" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1586969317557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586969317557" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1586969317557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586969317557" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1586967281112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586967281112" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1586967281112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1586967281112" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1586967281112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1586967281112" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1586967281112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1586967281112" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1586969297202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586969297202" />
+    <state x="461" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1586965632271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586965632271" />
+    <state x="449" y="104" key="spring file set editor" timestamp="1586969035584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="104" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1586969035584" />
+  </component>
+</project>

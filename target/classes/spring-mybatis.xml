@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- Spring 管理文件 -->
+
+    <!-- 自动扫描 -->
+    <context:component-scan base-package="com.maven.service" />
+    <!--<context:component-scan base-package="com.maven.*">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>-->
+
+    <!-- 1.引入 jdbc.properties 属性文件 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!-- 2.配置 druid 数据源，这里可以换成C3P0,DBCP等等其他的链接方式。说明：DriverManagerDataSource建立连接是只要有连接就新建一个connection,根本没有连接池的作用。 -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${driverClassName}"/>
+        <property name="url" value="${jdbc_url}"/>
+        <property name="username" value="${jdbc_username}"/>
+        <property name="password" value="${jdbc_password}"/>
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="${initialSize}" />
+        <property name="minIdle" value="${minIdle}" />
+        <property name="maxActive" value="${maxActive}" />
+
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait" value="${maxWait}" />
+
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="${timeBetweenEvictionRunsMillis}" />
+
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="${minEvictableIdleTimeMillis}" />
+
+        <property name="validationQuery" value="${validationQuery}" />
+        <property name="testWhileIdle" value="${testWhileIdle}" />
+        <property name="testOnBorrow" value="${testOnBorrow}" />
+        <property name="testOnReturn" value="${testOnReturn}" />
+
+        <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+        <property name="poolPreparedStatements" value="${poolPreparedStatements}" />
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="${maxPoolPreparedStatementPerConnectionSize}" />
+
+        <!-- 连接泄漏处理。Druid提供了RemoveAbandanded相关配置，用来关闭长时间不使用的连接（例如忘记关闭连接）。 -->
+        <property name="removeAbandoned" value="${removeAbandoned}" />
+        <!-- 1800秒，也就是30分钟 -->
+        <property name="removeAbandonedTimeout" value="${removeAbandonedTimeout}" />
+        <!-- 关闭abanded连接时输出错误日志 -->
+        <property name="logAbandoned" value="${logAbandoned}" />
+
+        <!-- 配置监控统计拦截的filters, 监控统计："stat",防SQL注入："wall",组合使用： "stat,wall" -->
+        <property name="filters" value="${filters}" />
+    </bean>
+
+    <!-- 3.spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+<!--    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">-->
+    <!-- <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> -->
+    <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+        <!-- 管理数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <!-- 映射文件，这里注意 idea 编译的时候配置文件必须置于 resource 文件夹下 -->
+        <!--<property name="mapperLocations" value="classpath:com/maven/dao/*Mapper.xml"/>-->
+        <property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
+        <!-- 映射文件中 type 只需写上类名，否则需要加上全类名 -->
+        <property name="typeAliasesPackage" value="com.maven.model"/>
+    </bean>
+
+    <!-- 4.配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 注入sqlSessionFactory -->
+         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!-- 给出需要扫描Dao接口包 -->
+        <property name="basePackage" value="com.maven.dao.mapper"/>
+    </bean>
+
+    <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- LogInterceptor 配置 -->
+    <!--<context:annotation-config />
+    &lt;!&ndash; 自动扫描 &ndash;&gt;
+    <context:component-scan base-package="com.maven"/>
+    &lt;!&ndash; 要添加本行 &ndash;&gt;
+    <aop:aspectj-autoproxy/>-->
+
+    <!-- 1.使用AOP之前先配置切入点 -->
+    <!--<aop:config>
+        &lt;!&ndash; 配置切入点 &ndash;&gt;
+        &lt;!&ndash; execution()语法:execution (* com.xx.xx.impl..*.*(..))
+        首先明白这个表达式是用来匹配方法的,各种条件是为了筛选整个项目的方法。
+        (类的访问修饰符
+        第一个*表示方法返回值类型[*表示所有类型]
+        com.xx.xx.impl表示包路径[*表示所有包]
+        .[.表示当前包下所有类的方法,..表示当前包下及此包下所有子包中的所有类的方法]
+        第二个*表示类名[*表示所有类,可以匹配以X开头或结尾如X*、*X、X*X的类名]
+        第三个*表示方法名[*表示所有方法,可以匹配以X开头或结尾的如X*、*X、X*X的方法名]
+        (..)表示方法参数[..表示任何参数]
+        )&ndash;&gt;
+        <aop:pointcut expression="execution(public * com.maven.service..*.*(..))" id="pointcut"/>
+    </aop:config>-->
+
+    <!-- 配置切面类 -->
+    <bean id="myLogger" class="com.maven.util.MyLogger"/>
+
+    <!-- 2.1).MyLogger 通过<aop:aspect>配置实现增强 -->
+    <!-- 配置多个增强方式 ref引用配置的增强类bean id-->
+    <aop:config>
+        <!-- 配置切入点表达式:哪些类的哪些方法需要进行增强 -->
+        <aop:pointcut id="pointcut1" expression="execution(public * com.maven.service.*.*ServiceImpl.query*(..))"/>
+<!--        <aop:pointcut id="pointcut2" expression="execution(public * com.maven.service.*.*ServiceImpl.save*(..))"/>-->
+<!--        <aop:pointcut id="pointcut3" expression="execution(public * com.maven.service.*.*ServiceImpl.delete*(..))"/>-->
+<!--        <aop:pointcut id="pointcut4" expression="execution(public * com.maven.service.*.*ServiceImpl.update*(..))"/>-->
+        <!-- 配置切面 -->
+        <aop:aspect ref="myLogger">
+            <!-- 配置各种类型增强 -->
+            <!-- 前置通知 在目标方法之前执行 -->
+            <aop:before method="beforeLogger" pointcut-ref="pointcut1"/>
+            <!-- 后置通知】-->
+<!--            <aop:before method="after" pointcut-ref="pointcut1"/>-->
+            <!-- 返回后通知 -->
+<!--            <aop:after-returning method="afterReturning" returning="result" pointcut-ref="pointcut1"/>-->
+            <!-- 环绕通知 -->
+<!--            <aop:around method="aroundLogger" pointcut-ref="pointcut1"/>-->
+            <!-- 异常通知 -->
+<!--            <aop:after-throwing method="afterThrowing" throwing="e" pointcut-ref="pointcut1"/>-->
+        </aop:aspect>
+    </aop:config>
+
+    <!-- 2.2).MyBeanLogger 配置注解侵入式方式(缺点不利于后期维护) -->
+    <!-- 打开切面注解 -->
+    <!--<aop:aspectj-autoproxy proxy-target-class="true"/>
+    &lt;!&ndash; 扫描注解包 &ndash;&gt;
+    <context:component-scan base-package="com.maven"/>-->
+
+</beans>
