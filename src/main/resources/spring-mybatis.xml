@@ -121,22 +121,22 @@
     <aop:config>
         <!-- 配置切入点表达式:哪些类的哪些方法需要进行增强 -->
         <aop:pointcut id="pointcut1" expression="execution(public * com.maven.service.*.*ServiceImpl.query*(..))"/>
-        <aop:pointcut id="pointcut2" expression="execution(public * com.maven.service.*.*ServiceImpl.save*(..))"/>
-        <aop:pointcut id="pointcut3" expression="execution(public * com.maven.service.*.*ServiceImpl.delete*(..))"/>
-        <aop:pointcut id="pointcut4" expression="execution(public * com.maven.service.*.*ServiceImpl.update*(..))"/>
+<!--        <aop:pointcut id="pointcut2" expression="execution(public * com.maven.service.*.*ServiceImpl.save*(..))"/>-->
+<!--        <aop:pointcut id="pointcut3" expression="execution(public * com.maven.service.*.*ServiceImpl.delete*(..))"/>-->
+<!--        <aop:pointcut id="pointcut4" expression="execution(public * com.maven.service.*.*ServiceImpl.update*(..))"/>-->
         <!-- 配置切面 -->
         <aop:aspect ref="myLogger">
             <!-- 配置各种类型增强 -->
             <!-- 前置通知 在目标方法之前执行 -->
             <aop:before method="beforeLogger" pointcut-ref="pointcut1"/>
             <!-- 后置通知】-->
-            <aop:before method="after" pointcut-ref="pointcut1"/>
+<!--            <aop:before method="after" pointcut-ref="pointcut1"/>-->
             <!-- 返回后通知 -->
-            <aop:after-returning method="afterReturning" returning="result" pointcut-ref="pointcut1"/>
+<!--            <aop:after-returning method="afterReturning" returning="result" pointcut-ref="pointcut1"/>-->
             <!-- 环绕通知 -->
-            <aop:around method="aroundLogger" pointcut-ref="pointcut1"/>
+<!--            <aop:around method="aroundLogger" pointcut-ref="pointcut1"/>-->
             <!-- 异常通知 -->
-            <aop:after-throwing method="afterThrowing" throwing="e" pointcut-ref="pointcut1"/>
+<!--            <aop:after-throwing method="afterThrowing" throwing="e" pointcut-ref="pointcut1"/>-->
         </aop:aspect>
     </aop:config>
 

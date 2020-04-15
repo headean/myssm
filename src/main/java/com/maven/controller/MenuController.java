@@ -24,7 +24,7 @@ public class MenuController {
     IMenuService menuService;
 
     /**
-     * http://127.0.0.1:8080/myssm/admin/sys-menu/findMenuNavigation
+     * http://127.0.0.1:8080/myssm/admin/sys-menu/findMenuNavigation?userId=0001
      * @param userId
      * @return
      */
