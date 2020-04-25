@@ -1,6 +1,8 @@
 package com.maven.controller;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.github.pagehelper.PageInfo;
 import com.maven.model.User;
 import com.maven.service.IUserService;
@@ -123,6 +125,20 @@ public class UserController {
     public Result getById(Serializable id){
         User user = userService.getById(id);
         return Result.success(user);
+    }
+
+    /**
+     * http://127.0.0.1:8080/myssm/admin/sys-user/selectPageVo
+     * baomidou 分页查询
+     * @param page
+     * @param state
+     * @return
+     */
+    @RequestMapping("/selectPageVo")
+    public Result selectPageVo(Page<Map<String, Object>> page, Integer state){
+        IPage<User> iPage = userService.selectPageVo(page,state);
+
+        return Result.success(iPage);
     }
 
     /**

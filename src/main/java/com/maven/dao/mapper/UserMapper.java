@@ -1,6 +1,8 @@
 package com.maven.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.maven.model.User;
 import com.maven.util.DataGrid;
 import org.mybatis.spring.annotation.MapperScan;
@@ -23,4 +25,6 @@ public interface UserMapper extends BaseMapper<User> {
     //int updateByPrimaryKey(User record);
 
     List<Map<String, String>> queryUserPage(Map<String, Object> params);
+
+	IPage<User> selectPageVo(Page<Map<String, Object>> page, Integer state);
 }

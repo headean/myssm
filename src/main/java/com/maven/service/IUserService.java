@@ -1,5 +1,7 @@
 package com.maven.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.github.pagehelper.PageInfo;
 import com.maven.model.User;
@@ -15,5 +17,7 @@ import java.util.Map;
  * Time: 11:11
  */
 public interface IUserService extends IService<User> {
-    PageInfo queryUserPage(Map<String, Object> params);
+    PageInfo<?> queryUserPage(Map<String, Object> params);
+
+	IPage<User> selectPageVo(Page<Map<String, Object>> page, Integer state);
 }

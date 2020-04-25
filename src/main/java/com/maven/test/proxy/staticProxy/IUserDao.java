@@ -13,13 +13,14 @@ public interface IUserDao {
     void find();
 }
 
-//目标对象
+// 目标对象
 class UserDao implements IUserDao {
+	// 接口实现类保存方法
     @Override
     public void save() {
         System.out.println("模拟：保存用户！");
     }
-
+	// 接口实现类查询方法
     @Override
     public void find() {
         System.out.println("模拟：查询用户");
@@ -36,6 +37,7 @@ class UserDaoProxy implements IUserDao {
     // 代理对象，需要维护一个目标对象
     private IUserDao target = new UserDao();
 
+    // 静态代理实现保存方法
     @Override
     public void save() {
         System.out.println("代理操作： 开启事务...");
@@ -43,6 +45,7 @@ class UserDaoProxy implements IUserDao {
         System.out.println("代理操作：提交事务...");
     }
 
+	// 静态代理实现查询方法
     @Override
     public void find() {
         target.find();
