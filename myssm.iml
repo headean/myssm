@@ -68,6 +68,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.10" level="project" />
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-generator:3.3.0" level="project" />
