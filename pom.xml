@@ -29,7 +29,7 @@
         <springboot.version>2.2.2.RELEASE</springboot.version>
         <spring.version>4.3.26.RELEASE</spring.version>
         <shiro.version>1.5.2</shiro.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
         <fastjson.version>1.2.68</fastjson.version>
         <jackson.version>2.10.3</jackson.version><!---->
 
