@@ -1,6 +1,7 @@
 package com.maven.model;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class User {
     private Integer userId;
@@ -129,5 +130,32 @@ public class User {
 
     public void setLoginCount(Integer loginCount) {
         this.loginCount = loginCount;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        User user = (User) o;
+        return Objects.equals(userId, user.userId) &&
+                Objects.equals(userNo, user.userNo) &&
+                Objects.equals(userPwd, user.userPwd) &&
+                Objects.equals(userName, user.userName) &&
+                Objects.equals(email, user.email) &&
+                Objects.equals(phone, user.phone) &&
+                Objects.equals(enable, user.enable) &&
+                Objects.equals(genTime, user.genTime) &&
+                Objects.equals(loginTime, user.loginTime) &&
+                Objects.equals(lastLoginTime, user.lastLoginTime) &&
+                Objects.equals(loginCount, user.loginCount);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(userId, userNo, userPwd, userName, email, phone, enable, genTime, loginTime, lastLoginTime, loginCount);
     }
 }
