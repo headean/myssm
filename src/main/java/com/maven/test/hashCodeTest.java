@@ -16,11 +16,13 @@ import java.util.Map;
 public class hashCodeTest {
     private static Map m = new HashMap();
 
-    static final int hash(Object key) {
-        int h = 0;
+    static final int hash(Object key) {// 11
+        int h = 0;// 1568
         if ((key != null)) {
-            h = key.hashCode();
-            //(key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16)
+            h = key.hashCode();// 1568
+            int m = h >>> 16;//
+            System.out.println(m);
+            //(key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
         }
         return h;
     }
@@ -32,6 +34,12 @@ public class hashCodeTest {
         m.put("9", "4");
         m.put("3", "3");
         m.put("8", "8");
+        m.put("9", "9");
+        m.put("10", "10");
+        m.put("11", "11");
+        m.put("18", "8");
+        m.put("28", "8");
+        m.put("38", "8");
         //
         //System.out.println(m.size());
         //System.out.println(m.keySet().size());
@@ -62,6 +70,7 @@ public class hashCodeTest {
         //遍历map中的键
         for (Object key : m.keySet()) {
             System.out.println("Key = " + key.toString());
+            int hash = hash(key);
             System.out.println(key.hashCode());
         }
         //遍历map中的值
@@ -77,7 +86,7 @@ public class hashCodeTest {
         //System.out.println(m.get(3).hashCode());
         //System.out.println(m.get(8).hashCode());
 
-        //int hash = hash(1);
+        //int hash = hash("1");
         //System.out.println(hash);
         //
         //User user = new User();
