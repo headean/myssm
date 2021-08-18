@@ -1,4 +1,4 @@
-package com.maven.test.interview2021.c_swap;
+package com.maven.test.interview2021.a.c_swap;
 
 /**
  * Created with IntelliJ IDEA.

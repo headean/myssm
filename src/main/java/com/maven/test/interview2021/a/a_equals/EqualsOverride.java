@@ -1,4 +1,4 @@
-package com.maven.test.interview2021.a_equals;
+package com.maven.test.interview2021.a.a_equals;
 
 import com.google.common.base.Objects;
 

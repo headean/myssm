@@ -1,4 +1,4 @@
-package com.maven.test.interview2021.a_equals;
+package com.maven.test.interview2021.a.a_equals;
 
 /**
  * Created with IntelliJ IDEA.

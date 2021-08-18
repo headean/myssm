@@ -1,4 +1,4 @@
-package com.maven.test.interview2021.b_abstarct;
+package com.maven.test.interview2021.a.b_abstarct;
 
 /**
  * Created with IntelliJ IDEA.
