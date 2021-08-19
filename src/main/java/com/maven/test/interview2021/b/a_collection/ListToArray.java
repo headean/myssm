@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description: 实现数组和 List 之间的转换
  * User: headean
  * Email: 386495531@qq.com
  * Date: 2021-08-18 17:35
