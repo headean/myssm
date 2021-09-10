@@ -13,16 +13,18 @@ public class SubThread implements Runnable {
 
     @Override
     public void run() {
-        try {
-            System.out.println("subThread run..." + start);
-            start++;
-            Thread.sleep(3);
-        } catch (InterruptedException e) {
-            System.out.println("Exception...");
-            e.printStackTrace();
-        } finally {
-            System.out.println("subThread stop ..." + end);
-            end++;
+        synchronized (this) {
+            try {
+                System.out.println("subThread run..." + start);
+                start++;
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                System.out.println("Exception...");
+                e.printStackTrace();
+            } finally {
+                System.out.println("subThread stop ..." + end);
+                end++;
+            }
         }
     }
 }
