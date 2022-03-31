@@ -27,7 +27,7 @@
         <jstl.version>1.2</jstl.version>
 
         <springboot.version>2.2.2.RELEASE</springboot.version>
-        <spring.version>4.3.26.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <shiro.version>1.5.2</shiro.version>
         <junit.version>4.13</junit.version>
         <fastjson.version>1.2.68</fastjson.version>
