@@ -25,14 +25,14 @@ public class StockTest {
     static class StockThread implements Runnable {
         @Override
         public void run() {
-            // lock up
+            // lock up 上锁 向数据库锁表中加入一条数据
             dblock.lock();
 
-            // decrease stock
+            // decrease stock 减少库存
             System.out.println("run...");
             boolean b = new stock().decreaseStock();
 
-            // lock down
+            // lock down 释放锁 删除数据库上锁记录
             dblock.unlock();
 
             if (b) {
